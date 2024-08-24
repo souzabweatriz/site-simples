@@ -1,0 +1,46 @@
+body {
+ background-color: rgb(255, 198, 198);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin: 0;
+ border: none;
+ scroll-behavior: smooth;
+ padding: 0;
+}
+
+header{
+    background-color: rgb(240, 168, 208);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    position: fixed;
+    padding: 2.5rem 16rem;
+    justify-content: space-between;
+    z-index: 1000
+}
+
+.navbar a {
+    width: 100%;
+    font-size: 1rem;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-weight: 500px;
+}
