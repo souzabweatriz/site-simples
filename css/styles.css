@@ -1,5 +1,5 @@
 body {
- background-color: rgb(255, 198, 198);
+ background-color: rgb(247, 239, 229);
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  margin: 0;
  border: none;
@@ -8,7 +8,7 @@ body {
 }
 
 header{
-    background-color: rgb(240, 168, 208);
+    background-color: rgb(30, 42, 94);
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -22,6 +22,7 @@ a{
     text-decoration: none;
     text-align: center;
     padding: 30px;
+    color: rgb(244, 217, 208);
 }
 
 .header {
@@ -37,6 +38,10 @@ a{
     z-index: 1000
 }
 
+h1{
+    color: aliceblue;
+}
+
 .navbar a {
     width: 100%;
     font-size: 1rem;
@@ -44,3 +49,36 @@ a{
     cursor: pointer;
     font-weight: 500px;
 }
+
+main{
+    padding: 20px;
+}
+
+.livros{
+display: grid;
+gap: 40px;
+justify-content: center;
+border-radius: 8px;
+text-align: center;
+width: 130px;
+padding: 10px;
+font-size: small;
+}
+
+.livro img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px;
+}
+.livro h2{
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.livro p{
+    margin: 0;
+    color: black;
+}
+
