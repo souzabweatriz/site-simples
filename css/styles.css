@@ -35,11 +35,18 @@ a{
     position: fixed;
     padding: 2.5rem 16rem;
     justify-content: space-between;
-    z-index: 1000
+    z-index: 5;
 }
 
 h1{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    color: rgb(6, 6, 114);
 }
 
 .navbar a {
@@ -82,3 +89,67 @@ font-size: small;
     color: black;
 }
 
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb;
+    margin-top: 70px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+form input[type= "text"],
+form input[type= "email"]
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+form input[type= "radio"],
+form input[type= "checkbox"]{
+    margin-right: 10px;
+}
+
+
+form fieldset{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+form button{
+    cursor: pointer;
+    background-color: rgb(28, 4, 132);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 250px;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 680px
+}
