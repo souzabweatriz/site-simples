@@ -20,10 +20,10 @@ header{
 
 
 a{
-    text-decoration: none;
+    text-decoration-color: rgb(52, 56, 160);
     text-align: center;
     padding: 30px;
-    color: rgb(244, 217, 208);
+    color: white; 
 }
 
 .header {
@@ -41,7 +41,9 @@ a{
 }
 
 h1{
-    color: rgb(255, 255, 255);
+    color: white;
+    font-weight: 700;
+    font-size: 2.5em;
 }
 
 h3{
@@ -78,6 +80,7 @@ font-size: small;
     width: 150px;
     height: 210px;
     border-radius: 7px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0)
 }
 
 .livro h2{
@@ -108,10 +111,10 @@ form label{
 }
 
 form legend{
-    padding: 0 10px;
+    padding:  10px;
     font-weight: bold;
     color: black;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
 }
 form input[type= "text"],
@@ -132,8 +135,6 @@ form input[type= "checkbox"]{
 form fieldset{
     border: 1px solid #ddd;
     padding: 10px;
-    margin-bottom: 10px;
-
 }
 
 
@@ -186,7 +187,7 @@ form button{
     padding: 30px;
     color: white;
     margin-top: 50px;
-    box-shadow: 0 4px 8px rgb(255, 255, 255); 
+    box-shadow: 0 px 8px rgb(255, 255, 255); 
 }
 
 .sobre-img {
@@ -214,7 +215,7 @@ form button{
 
 .livros-container{
     border-radius: 10px;
-    background-color: rgb(244, 250, 255);
+    background-color: white;
     padding: 30px;
     width: 1000000px;
     height: 280px;
