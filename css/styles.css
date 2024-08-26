@@ -15,6 +15,7 @@ header{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
 }
 
 
@@ -36,6 +37,7 @@ a{
     padding: 2.5rem 16rem;
     justify-content: space-between;
     z-index: 5;
+    overflow-x: hidden;
 }
 
 h1{
@@ -67,20 +69,19 @@ gap: 40px;
 justify-content: center;
 border-radius: 8px;
 text-align: center;
-width: 130px;
-padding: 10px;
+width: 150px;
+padding: 0px;
 font-size: small;
 }
 
 .livro img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px;
+    width: 150px;
+    height: 210px;
+    border-radius: 7px;
 }
+
 .livro h2{
-    margin: 10px 0 5px;
+    margin: 10px 0 0px;
     font-size: 1.2rem;
 }
 
@@ -132,6 +133,7 @@ form fieldset{
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 10px;
+
 }
 
 
@@ -146,10 +148,74 @@ form button{
     margin-left: 250px;
 }
 
-.eu img{
+.home-container{
+    max-width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgba(7, 25, 106, 0.933);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 85, 255), 0 0 10px rgb(33, 0, 85), 0 0 15px rgb(208, 203, 224);
+}
+
+.sobre-img {
     width: 140px;
     height: 140px;
     border-radius: 100%;
     padding: 10px;
-    margin-left: 680px
+    margin-left: 680px;
+}
+
+.sobre-container {
+    max-width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgba(3, 13, 57, 0.933);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.contato-container{
+    max-width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: rgba(4, 19, 84, 0.933);
+    padding: 30px;
+    color: white;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255); 
+}
+
+.sobre-img {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0); 
+    
+}
+
+.sobre-texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 80px; 
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 85, 255), 0 0 10px rgb(33, 0, 85), 0 0 15px rgb(255, 255, 255);
+    
+}
+
+.livros-container{
+    border-radius: 10px;
+    background-color: rgb(244, 250, 255);
+    padding: 30px;
+    width: 1000000px;
+    height: 280px;
 }
